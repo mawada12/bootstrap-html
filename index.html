@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<head>
+
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel ="stylesheet" href="css/all.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+   
+</head>
+ <style>
+
+body{
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100vh;
+
+    }
+
+    p{
+        
+    color: rgba(10, 10, 10, 0.826);
+
+    }
+
+    h3{
+
+        color: rgb(238, 83, 83);
+        text-decoration: wavy;
+    }
+ a{
+    color: rgb(238, 109, 109);
+ }
+.navbar {
+
+z-index: 4;
+position: fixed;
+width: 100%;
+
+}
+
+h2{
+    color: rgb(238, 83, 83);
+}
+
+.layer{
+    
+    background-image: url(https://media.istockphoto.com/id/1176171347/photo/scented-candle-burning-on-sofa-table.jpg?s=612x612&w=0&k=20&c=EKovDu5UHUp0A4tLFHPzaCG5Z-N5_BtNo7EITZ0wgGI=);
+    background-attachment: fixed;
+    background-size: cover;
+    height:450px;
+    margin-top: 20px;
+    
+}
+
+.layer2{
+    
+    background-image: url(https://media.istockphoto.com/id/874884838/photo/soap-with-different-ingredients.jpg?s=612x612&w=0&k=20&c=ayvWUBSYrTTETFiO1m-E4Wd9QZMueY5jTHKeeRW13nQ=);
+    background-attachment: fixed;
+    background-size: cover;
+    height:450px;
+    margin-top: 20px;
+    
+}
+ 
+</style>
+
+<!-- //////////////////////////////////////////////////////////////////////////// -->
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark  " style="opacity: 0.9 ">
+        <div class="container-fluid">
+         <!--logo -->
+         <a class="navbar-brand" href="#">
+         <img src="logo.png" alt="logo" style="width:80px ; height: 55px; color: aliceblue;">
+         <a class="navbar-brand text-light" href="#" style="border-right:1px solid #ccc; padding-right: 10px; font-weight: bold;">Feel Good</a>
+         </a>
+      
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <!-- Links -->
+        <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Candles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Perfumes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Call Us</a>
+          </li>
+      
+          <!-- Dropdown -->
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+             All Items
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" target="_blank" href="">Candles</a></li>
+                <li><a class="dropdown-item" target="_blank" href="">Soap</a></li>
+                <li><a class="dropdown-item" target="_blank" href="">Perfumes</a></li>
+                <li><a class="dropdown-item" target="_blank" href="">Offers</a></li>
+                <li><a class="dropdown-item" target="_blank" href="">Orders</a></li>
+                <li><a class="dropdown-item" target="_blank" href="">Call Us</a></li>
+                
+            </ul>
+          </li>
+        </ul>
+        </div>
+        
+
+        <form class="form-inline">
+        <input class="form-control me-2 mr-2" type="text" placeholder="Search">
+           
+        <button class="btn btn-outline-light me-2 mr-2" type="submit">Search</button>
+        <button class="btn btn-outline-light me-2 mr-2" type="submit">Sign in</button>
+
+        </form>
+        </div>
+        </div>
+        
+</nav>
+ 
+<!-- ////////////////////////////////////////////////////////////////// -->
+      
+<div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://media.istockphoto.com/id/1209097572/photo/beautiful-spa-relax-concept-coffee-with-cinnamon-scrub-green-tea-scrub-cotton-pouches-with.jpg?s=612x612&w=0&k=20&c=pgTZNZYzIhIXk3j1zw04VbNu_EvXsewKySolIZ8NYV4=" alt="image" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3> Welcome to Our Shop !</h3>
+          <p> Feel Good , Feel Unique With Our Natural Products !</p>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="c2.jpg" alt="image" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Candles</h3>
+          <p> All our Candles Made from Natural!</p>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="s1.jpg" alt="image" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Soaps</h3>
+          <p> We Made it with love!</p>
+        </div>   
+      </div>
+
+      <div class="carousel-item">
+        <img src="c4.jpg" alt="image" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Perfumes</h3>
+          <p> Perfume From Natural Oils!</p>
+        </div>   
+      </div>
+
+      <div class="carousel-item">
+        <img src="c5.jpg" alt="image" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Special Packages</h3>
+          <p> Thank you, for Choosing Us!</p>
+        </div>   
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+      
+     <br>
+     <br>
+     <br>
+     <br>
+
+<!-- ///////////////////////////////////////////////// -->
+
+<div class="container-fluid">
+    <h2>Our Products</h2>
+   
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            Why are Natural Candles Better?
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+          <div class="card-body">
+            They Don’t Contain Unsavory Chemicals
+            With natural candles, you won’t be risking exposure to potentially harmful chemicals.
+            Traditional paraffin wax is derived from petroleum and can contain various toxins, carcinogens, and air pollutants. Organic waxes, such as soy wax or beeswax, are an easy way to avoid risking exposure to such chemicals.
+            Wicks made from natural materials such as cotton, hemp, or wood are a better option than metal-cored wicks, which can release toxins and even traces of lead in the worst cases.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+          Why Using Our Natural Perfumes?
+        </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            Using natural essential oils rather than synthetics to create a fragrance brings emotional and physical healing properties such as calming, energy-enhancing, relaxing or mood-lifting
+            Organic Perfumes and perfume for sensitive skin which smell just as good as your favourite fragrance can be difficult to come by.
+            But for those with extremely sensitive skin who may be allergic to perfume, or those who simply want to use only natural skin care and need help on how to choose a perfume which fits their high ethical standards,
+            finding an organic fragrance to complement your arsenal of organic beauty products is essential.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+             Benfits Of Our Natural Soaps.
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            Many products that are advertised or displayed using terms like ‘cleanser,’ ‘body bar,’ ‘body wash,’ ‘beauty bar,’ ‘skincare bar,’ and even ‘deodorant soap’ are actually detergent based products, and not really soaps at all.
+            One of the benefits of using real soap is that one of the by-products of the production process is glycerine.
+            Glycerine is an excellent skin moisturiser because it attracts moisture to itself in and around the skin. 
+            Traditionally made soaps contain glycerine, and so they hydrate the skin during bathing, whereas many commercially manufactured soaps can dry skin out. Why? Because store-bought, commercial soaps usually undergo a process designed specifically to remove the glycerine.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+            Special Offers!
+          </a>
+        </div>
+        <div id="collapseFour" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            Buy 1 Get 1 Free. <br>
+            Buy 2 Get 20% Discount . <br>
+            Buy 3 of Our Natural product & Get 30% Discount & Free shipping . <br>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+ </div>
+ 
+  <br>
+  <br>
+  <br>
+  <br>
+  
+<!-- //////////////////////////////////////////////////// -->
+
+<div class="container-fluid bg-light">
+    <h2>About Our Products </h2>
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title"> Welcome</h4>
+        <p class="card-text">Thank you, for Choosing Us!</p>
+
+        <button class="btn btn-outline-danger me-2 mr-2 " type="submit " data-toggle="tooltip" title="Hooray!"> Shop Now</button>
+
+      </div>
+    </div>
+    <br>
+  
+
+    <h2>About Us !</h2>
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title"> Welcome</h4>
+        <p class="card-text">Thank you, for Choosing Us!</p>
+        
+        <button class="btn btn-outline-danger me-2 mr-2 " type="submit " data-toggle="tooltip" title="Hooray!"> Shop Now</button>
+
+      </div>
+    </div>
+    <br>
+  
+
+
+    <h2>Our Natural ingredients</h2>
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title"> Welcome </h4>
+        <p class="card-text">Thank you, for Choosing Us!</p>
+
+        <button class="btn btn-outline-danger me-2 mr-2 " type="submit " data-toggle="tooltip" title="Hooray!"> Shop Now</button>
+
+      </div>
+    </div>
+    <br>
+
+</div>
+
+
+<br>
+<br>
+<br>
+<!-- ///////////////////////////////////////////// -->
+
+<div class="layer">
+    <div class="overlayy">
+  
+    </div> <!--overlay-->
+  
+</div> <!--container-->
+
+<br>
+<br>
+<br>
+<br>
+
+<!-- //////////////////////////////////////////////////// -->
+         
+    <div class="container-fluid">
+        
+    <div class="row justify-content-around pb-5 " style=" border-radius: 20px;">
+    
+    
+    <div class="card " style="width:300px">
+      <img class="card-img-top" src="https://www.bathandbodyworks.com.eg/assets/styles/bbw/image-thumb__208336__product_listing/26385660_1.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">Rose Candle</h4>
+        <p class="card-text"> <b> 150$ </b></p>
+        <a href="#" class="btn btn-danger">See Details</a>
+      </div>
+    </div>
+    <br>
+
+
+    
+    <div class="card " style="width:300px" >
+      <img class="card-img-top" src="https://www.bathandbodyworks.com.eg/assets/styles/bbw/image-thumb__157892__product_listing/26289978_1.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">Ocean Candle</h4>
+        <p class="card-text"> <b> 150$ </b></p>
+        <a href="#" class="btn btn-danger">See Details</a>
+      </div>
+    </div>
+    <br>
+
+    
+    <div class="card" style="width:300px">
+      <img class="card-img-top" src="https://www.bathandbodyworks.com.eg/assets/styles/bbw/image-thumb__208348__product_listing/26385630_1.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">Sunshine Candle</h4>
+        <p class="card-text"> <b> 150$ </b></p>
+        <a href="#" class="btn btn-danger">See Details</a>
+      </div>
+    </div>
+    <br>
+
+
+    <div class="card" style="width:300px">
+      <img class="card-img-top" src="https://www.bathandbodyworks.com.eg/assets/styles/bbw/image-thumb__157889__product_listing/26289976_1.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">bluebury Candle</h4>
+        <p class="card-text"> <b> 150$ </b></p>
+        <a href="#" class="btn btn-danger">See Details</a>
+      </div>
+    </div>
+    <br>
+
+
+    
+    <div class="card" style="width:300px">
+      <img class="card-img-top" src="https://www.bathandbodyworks.com.eg/assets/styles/bbw/image-thumb__157892__product_listing/26289978_1.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">flower Candle</h4>
+        <p class="card-text"> <b> 150$ </b></p>
+        <a href="#" class="btn btn-danger">See Details</a>
+      </div>
+    </div>
+    <br>
+
+
+    
+    <div class="card" style="width:300px">
+      <img class="card-img-top" src="https://www.bathandbodyworks.com.eg/assets/styles/bbw/image-thumb__208338__product_listing/26385666_1.jpg" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">lavender Candle</h4>
+        <p class="card-text"> <b> 150$ </b></p>
+        <a href="#" class="btn btn-danger">See Details</a>
+      </div>
+    </div>
+    <br>
+
+    <div class="card" style="width:300px">
+        <img class="card-img-top" src="https://www.bathandbodyworks.com.eg/assets/styles/bbw/image-thumb__208332__product_listing/26393041_1.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+            <h4 class="card-title">SeaOcean Candle</h4>
+            <p class="card-text"> <b> 150$ </b></p>
+            <a href="#" class="btn btn-danger">See Details</a>
+        </div>
+      </div>
+      <br>
+
+
+      <div class="card" style="width:300px">
+        <img class="card-img-top" src="https://www.bathandbodyworks.com.eg/assets/styles/bbw/image-thumb__208343__product_listing/26385661_1.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+            <h4 class="card-title">lemon Candle</h4>
+            <p class="card-text"> <b> 150$ </b></p>
+            <a href="#" class="btn btn-danger">See Details</a>
+        </div>
+      </div>
+      <br>
+
+
+
+  </div>
+</div>
+    
+<br>
+<br>
+<br>
+<br>
+
+<!-- //////////////////////////////////////////////////////////////// -->
+
+
+<div class="layer2">
+    <div class="overlayy2">
+  
+    </div> <!--overlay-->
+  
+</div> <!--container-->
+
+<br>
+<br>
+<br>
+<br>
+
+<!-- //////////////////////////////////////////////////////// -->
+
+<div class="container-fluid">
+        
+    <div class="row justify-content-around pb-5 " style=" border-radius: 20px;">
+    
+    
+    <div class="card " style="width:300px">
+      <img class="card-img-top" src="https://media.istockphoto.com/id/1147785600/photo/natural-cosmetic-and-wellness-concept-organic-soap-on-white-background-natural-soap-beauty.jpg?s=612x612&w=0&k=20&c=uxI0HbbspmsjP-ofXDzMzA90QSnN7Ia9ngfm_rzVAHM=" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">Natural Soap</h4>
+        <p class="card-text"> <b> 50$ </b></p>
+        <a href="#" class="btn btn-danger">See Details</a>
+      </div>
+    </div>
+    <br>
+
+
+    
+    <div class="card " style="width:300px" >
+        <img class="card-img-top" src="https://media.istockphoto.com/id/516846960/photo/oats-skin-care-treatment.jpg?s=612x612&w=0&k=20&c=zHc--nv1n9iVMJAA1Gu7US8LMO-oi7ueCdzFtgGvKSY=" alt="Card image" style="width:100%">      
+        <div class="card-body">
+            <h4 class="card-title">Lemon Soap</h4>
+            <p class="card-text"> <b> 50$ </b></p>
+        <a href="#" class="btn btn-danger">See Details</a>
+      </div>
+    </div>
+    <br>
+
+    
+    <div class="card" style="width:300px">
+        <img class="card-img-top" src="https://media.istockphoto.com/id/1159624429/photo/closeup-of-hand-made-herbal-soap-bar-in-blank-paper-label-package-mint-leaves-lavender-and.jpg?s=612x612&w=0&k=20&c=QXOIVERNTE6UIb0iF64UdgCRMOA_Y0lV_XvJmTnIe78=" alt="Card image" style="width:100%"> 
+        <div class="card-body">
+            <h4 class="card-title">Lavender Soap</h4>
+            <p class="card-text"> <b> 50$ </b></p>
+        <a href="#" class="btn btn-danger">See Details</a>
+      </div>
+    </div>
+    <br>
+
+
+    <div class="card" style="width:300px">
+        <img class="card-img-top" src="https://media.istockphoto.com/id/478394013/photo/natural-handmade-soap-spa.jpg?s=612x612&w=0&k=20&c=ydBZROYGXjUGILZCU0xJDkE-ouojsycZZeAmxFcm5ag=" alt="Card image" style="width:100%">      
+        <div class="card-body">
+            <h4 class="card-title">Vanilla Soap</h4>
+            <p class="card-text"> <b> 50$ </b></p>
+        <a href="#" class="btn btn-danger">See Details</a>
+      </div>
+    </div>
+    <br>
+
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<!-- //////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div class="card-deck">
+    <div class="card bg-danger">
+      <div class="card-body text-center ">
+        <a href="#"><i class="fab fa-facebook"></i></a><br>
+        <a href="#" class="card-link">Follow Us !</a>
+      </div>
+    </div>
+    <div class="card bg-danger">
+      <div class="card-body text-center ">
+        <a href="#"><i class="fab fa-instagram"></i></a><br>
+        <a href="#" class="card-link">Follow Us !</a>
+      </div>
+    </div>
+    <div class="card bg-danger">
+      <div class="card-body text-center ">
+        <a href="#"><i class="fab fa-twitter"></i></a><br>
+        <a href="#" class="card-link">Follow Us !</a>
+      </div>
+    </div>
+    <div class="card bg-danger">
+      <div class="card-body text-center ">
+        <a href="#"><i class="fab fa-google"></i></a><br>
+        <a href="#" class="card-link">More about Us !</a>
+
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+<footer class="bg-light text-danger mt-5 p-2 pb-5 justify-content-center ">
+<div class="container-fluid ">  
+    <div class="row text-center">
+        <div class="col-md-4">
+          <hr class="border-top my-3">
+          <h5><img src="logo.png" alt="good pic" width="50px"> Address</h5>
+          <hr class="border-top my-3">
+            <p>Tel : 190080 </p>
+            <p>Address :Cairo , EGYPT</p>
+            <p>Email : 1234@-000-000</p>
+        </div>         
+
+        <div class="col-md-4">
+            <hr class="border-top my-3">
+            <h5><img src="logo.png" alt="good pic" width="50px"> Our Vision</h5>
+            <hr class="border-top my-3">
+            <address>
+              <p>Good quality</p>
+              <p>Provide best serveices</p>
+              <p>Help Our Customers</p>
+            </address>
+          </div>         
+
+
+          <div class="col-md-4">
+            <hr class="border-top my-3">
+            <h5><img src="logo.png" alt="pic"  width="50px"> Our Links</h5>
+            <hr class="border-top my-3">
+            <a href="#"><i class="fab fa-facebook"></i> Follow us </a><br>
+            <a href="#"><i class="fab fa-twitter"></i> Follow us</a><br>
+            <a href="#"><i class="fab fa-instagram"></i> Follow us</a><br>
+            <a href="#"><i class="fab fa-google"></i> Follow us</a><br>
+            
+            
+          </div>         
+    
+  </div>
+
+</footer>
+
+<!-- ////////////////////////////////////////////////////////// -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
